@@ -27,5 +27,7 @@ TARGET_OTA_ASSERT_DEVICE := LT25i,tsubasa
 
 BOARD_HARDWARE_CLASS := device/sony/tsubasa/cmhw
 
+TARGET_USES_CM_POWERHAL := true
+
 # inherit from the proprietary version
 -include vendor/sony/tsubasa/BoardConfigVendor.mk
